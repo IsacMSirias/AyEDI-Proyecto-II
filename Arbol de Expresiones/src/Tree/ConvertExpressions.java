@@ -7,20 +7,16 @@ public class ConvertExpressions {
     private String expresion;
     Stack <String> pila = new <Character>Stack();
 
-    public ConvertExpressions(String cadena) {
-        this.expresion=cadena;
-    }
-
-    private String postfijo(){
-        if (verificar(this.expresion)){
+    private String postfijo(String cadena){
+        if (verificar(cadena)){
             return "La expresion no está correctamente escrita; verifique de nuevo";
         }
         else{
-            return postfijo(this.expresion);
+            return postfijoAux(cadena);
         }
     }
 
-    public String postfijo(String cadena){
+    public String postfijoAux(String cadena){
         pila.empty();
         String postorderExpression = "";
         char caracterEvaluado;
@@ -67,7 +63,7 @@ public class ConvertExpressions {
     }
 
     public static void main(String[] args) {
-        ConvertExpressions p=new ConvertExpressions("(12+5)*2");
-        System.out.println(p.postfijo());
+        ConvertExpressions p=new ConvertExpressions();
+        System.out.println(p.postfijo("(12+5)*(1*2)"));
     }
 }
