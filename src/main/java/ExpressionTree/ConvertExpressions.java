@@ -6,19 +6,8 @@ public class ConvertExpressions {
     private String expresion;
     Stack<String> pila = new <Character>Stack();
 
-    // método que retorna la expresión postfija si está correctamente escrita la expresión de entrada, si no
-    //  retorna que la expresión no está correctamente escrita.
-    private String postfijo(String cadena){
-        if (verificar(cadena)){
-            return "La expresion no está correctamente escrita; verifique de nuevo";
-        }
-        else{
-            return postfijoAux(cadena);
-        }
-    }
-
     // recibe como argumento la expresión infija para convertirla a postfija
-    public String postfijoAux(String cadena){
+    public String postfijo(String cadena){
         pila.empty();
         String postorderExpression = "";
         char caracterEvaluado;
@@ -39,7 +28,7 @@ public class ConvertExpressions {
                 case ')':
                     // si el caracter es un parentesis que cierra, se remueve un operador de la pila y se
                     //  coloca en la expresión.
-                    postorderExpression = postorderExpression + pila.pop();
+                    postorderExpression = postorderExpression+" "+ pila.pop();
                     temp=false;
                     break;
                 default:
@@ -54,6 +43,7 @@ public class ConvertExpressions {
                         }
                         break;
                     }
+                    break;
             }
         }
         // se introduce el operador restante de la pila a la expresión de salida, quien de hecho será el
@@ -62,7 +52,7 @@ public class ConvertExpressions {
         return postorderExpression;
     }
 
-    // método que verifica si la expresión de entrada está correctamente escrita y así convertirla a postfija.
+    // método que verifica si la expresión de entrada está correctamente escrita antes de convertirla a postfija.
     public boolean verificar(String expression){
         char caracter;
         int parentesis = 0;
@@ -88,7 +78,6 @@ public class ConvertExpressions {
                     if (Character.isDigit(caracter)) {
                         break;
                     }
-                    System.out.println("hola" + caracter);
                     ExpresionCorrecta = false;
 
                     i = expression.length();
@@ -96,14 +85,9 @@ public class ConvertExpressions {
 
             }
         }
-        if ((parentesis%2)==0 || !ExpresionCorrecta){
+        if ((parentesis%2)==0 && ExpresionCorrecta){
             return false;
         }
         return true;
-    }
-
-    public static void main(String[] args) {
-        ConvertExpressions p=new ConvertExpressions();
-        System.out.println(p.postfijo("(12+5)*(1*2)"));
     }
 }
