@@ -82,7 +82,6 @@ public class ConvertExpressions {
 
                     i = expression.length();
                     break;
-
             }
         }
         if ((parentesis%2)==0 && ExpresionCorrecta){
