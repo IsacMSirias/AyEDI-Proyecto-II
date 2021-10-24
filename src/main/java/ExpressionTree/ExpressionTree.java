@@ -13,7 +13,7 @@ public class ExpressionTree {
 
     // método para construir un árbol de expresion de la expresion postfija de entrada
     private NodeTree constructorTree(String postorderExpression) {
-
+        //variable para almacenar los operandos
         String TempNum ="";
         // se crea una pila vacía para almacenar punteros de las raices de los subárboles
         // que componen al árbol de expresión
@@ -26,8 +26,8 @@ public class ExpressionTree {
             // caracter que se intera de la expresión postfija
             caracterEvaluado = Character.toString(postorderExpression.charAt(i));
 
+            // se inserta los numeros u operandos en la pila como un nodo hoja.
             if (caracterEvaluado.equals(" ")) {
-
                 pila.add(new NodeTree(TempNum));
                 TempNum="";
                 continue;
@@ -54,7 +54,8 @@ public class ExpressionTree {
                 continue;
             }
             // se cumple cuando el caracter evaluado es un operando, es decir un dígito.
-            // se inserta en la pila como un nodo hoja.
+            // se almacenan los operandos u números en una variable para luego insertarlos a la pila, esto para el
+            // caso de que fuesen números de más de un dígito.
             else {
                 TempNum = TempNum + caracterEvaluado;
             }
@@ -65,13 +66,38 @@ public class ExpressionTree {
         return pila.peek();
     }
 
-    // método para imprimir la expresión del árbol
-    public void inorder(NodeTree root) {
-        if (root == null) {
-            return;
+    // método para recorrer calcular la expresión contenida en el árbol
+    public double Resultado(NodeTree root) {
+        double respuesta = 0; // resultado que se retorna en cada subárbol
+
+        // se cumple al tener como raiz a un operando o nodo hoja
+        if (root.left==null && root.right==null){
+            return Double.parseDouble(root.data); // se retorna el operando o número contenido en el nodo hoja
         }
-        inorder(root.left);
-        System.out.print(root.data);
-        inorder(root.right);
+
+        // se realiza recursividad de pila para cálcular cada subárbol del árbol principal
+        //  para luego cálcular el hijo izquierdo y derecho de la raiz principal
+        switch (root.data){
+            // para cada caso se llama recursivamente a los hijos de cada subárbol
+            //  de manera que se obtengan los nodos hojas para ser cálculados.
+            case "+":
+                respuesta = Resultado(root.left) + Resultado(root.right);
+                break;
+            case "-":
+                respuesta = Resultado(root.left) - Resultado(root.right);
+                break;
+            case "*":
+                respuesta = Resultado(root.left) * Resultado(root.right);
+                break;
+            case "/":
+                respuesta = Resultado(root.left) / Resultado(root.right);
+                break;
+            case "%":
+                respuesta = Resultado(root.left) % Resultado(root.right);
+                break;
+        }
+        return respuesta;
     }
 }
+
+

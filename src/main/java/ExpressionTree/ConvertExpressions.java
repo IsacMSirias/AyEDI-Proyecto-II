@@ -8,7 +8,7 @@ public class ConvertExpressions {
 
     // recibe como argumento la expresión infija para convertirla a postfija
     public String postfijo(String cadena){
-        pila.empty();
+        pila.clear();
         String postorderExpression = "";
         char caracterEvaluado;
         boolean temp=true;
