@@ -1,0 +1,15 @@
+{
+  "productionMode": false,
+  "useDeprecatedV14Bootstrapping": false,
+  "eagerServerLoad": false,
+  "npmFolder": "C:\\Users\\Isac\\OneDrive\\Documentos\\GitHub\\AyEDI-Proyecto-II",
+  "generatedFolder": "C:\\Users\\Isac\\OneDrive\\Documentos\\GitHub\\AyEDI-Proyecto-II\\target\\frontend",
+  "frontendFolder": "C:\\Users\\Isac\\OneDrive\\Documentos\\GitHub\\AyEDI-Proyecto-II\\frontend",
+  "connect.javaSourceFolder": "C:\\Users\\Isac\\OneDrive\\Documentos\\GitHub\\AyEDI-Proyecto-II\\src\\main\\java",
+  "connect.applicationProperties": "C:\\Users\\Isac\\OneDrive\\Documentos\\GitHub\\AyEDI-Proyecto-II\\src\\main\\resources\\application.properties",
+  "connect.openApiFile": "C:\\Users\\Isac\\OneDrive\\Documentos\\GitHub\\AyEDI-Proyecto-II\\target\\generated-resources\\openapi.json",
+  "project.frontend.generated": "C:\\Users\\Isac\\OneDrive\\Documentos\\GitHub\\AyEDI-Proyecto-II\\frontend\\generated",
+  "pnpm.enable": true,
+  "require.home.node": false,
+  "build.folder": "target"
+}
