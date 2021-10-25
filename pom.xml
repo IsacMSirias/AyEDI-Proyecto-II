@@ -12,6 +12,9 @@
 
     <properties>
         <java.version>8</java.version>
+        <jetty.http.port>
+            8181
+        </jetty.http.port>
         <vaadin.version>21.0.3</vaadin.version>
     </properties>
 
@@ -133,7 +136,10 @@
     </dependencies>
 
     <build>
-        <defaultGoal>spring-boot:run</defaultGoal>
+        <defaultGoal>
+            spring-boot:run
+
+        </defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -142,6 +148,13 @@
                      the default Spring Boot's 30sec timeout.  -->
                 <configuration>
                     <wait>500</wait>
+
+                    <!--<httpConector>
+                        <port>
+                            8181
+                        </port>
+                    </httpConector>-->
+
                     <maxAttempts>240</maxAttempts>
                 </configuration>
             </plugin>
