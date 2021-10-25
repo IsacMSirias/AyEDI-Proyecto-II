@@ -3,11 +3,13 @@ package ExpressionTree;
 import java.util.EmptyStackException;
 import java.util.Stack;
 
-public class ExpressionTree {
+public class  ExpressionTree {
 
     // método para verificar si el argumento dado es un operador.
     public boolean isOperator(String operator) {
-        return (operator.equals("+")  ||operator.equals("/")|| operator.equals("-") || operator.equals("+") || operator.equals("*") ||
+        return (operator.equals("+")  ||operator.equals("/")
+                || operator.equals("-") || operator.equals("+")
+                || operator.equals("*") ||
                 operator.equals("%"));
     }
 
