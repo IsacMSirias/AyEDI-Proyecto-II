@@ -44,8 +44,8 @@ button:focus {
     outline: none;
 }
 
-.col-1 {
-    grid-column: span 1;
+.col-2 {
+    grid-column: span 2;
 }
 
 .display {
