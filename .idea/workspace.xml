@@ -5,104 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e109aca1-9dfd-408a-bee0-88b2a788cc21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SocketsConnection/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/Authentication.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/Authentication.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/Authentication.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/Authentication.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/Connect.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/Connect.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/Connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/Connect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/ConnectionIndicator.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/ConnectionIndicator.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/ConnectionIndicator.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/ConnectionIndicator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/ConnectionState.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/ConnectionState.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/ConnectionState.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/ConnectionState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/Flow.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/Flow.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/Flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/Flow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/FlowBootstrap.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/FlowBootstrap.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/FlowBootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/FlowBootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/FlowClient.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/FlowClient.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/FlowClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/FlowClient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/VaadinDevmodeGizmo.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/VaadinDevmodeGizmo.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/VaadinDevmodeGizmo.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/VaadinDevmodeGizmo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/a-notification.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/a-notification.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/a-vaadin-helper-bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/a-vaadin-helper-bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/comboBoxConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/comboBoxConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/contextMenuConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/contextMenuConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/css-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/css-utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/datepickerConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/datepickerConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/dndConnector-es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/dndConnector-es6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/dndConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/dndConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/css-helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/css-helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/outline.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/outline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-checkbox-group-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-checkbox-group-observer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-component-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-component-observer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-date-picker-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-date-picker-observer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-date-time-picker-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-date-time-picker-observer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-field-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-field-observer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-list-box-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-list-box-observer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-radio-group-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-radio-group-observer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-select-observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/fields/vaadin-select-observer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/vaadin-field-highlighter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/vaadin-field-highlighter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/vaadin-field-outline.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/vaadin-field-outline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/vaadin-user-tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/vaadin-user-tag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/vaadin-user-tags.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/src/vaadin-user-tags.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/lumo/vaadin-field-highlighter-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/lumo/vaadin-field-highlighter-styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/lumo/vaadin-field-highlighter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/lumo/vaadin-field-highlighter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/lumo/vaadin-user-colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/lumo/vaadin-user-colors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/lumo/vaadin-user-tags-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/lumo/vaadin-user-tags-styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/lumo/vaadin-user-tags.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/lumo/vaadin-user-tags.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/material/vaadin-field-highlighter-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/material/vaadin-field-highlighter-styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/material/vaadin-field-highlighter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/material/vaadin-field-highlighter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/material/vaadin-user-colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/material/vaadin-user-colors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/material/vaadin-user-tags-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/material/vaadin-user-tags-styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/material/vaadin-user-tags.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/field-highlighter/theme/material/vaadin-user-tags.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/flow-component-renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/flow-component-renderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/Binder.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/Binder.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/Binder.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/Binder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/BinderNode.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/BinderNode.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/BinderNode.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/BinderNode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/Field.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/Field.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/Field.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/Field.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/Models.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/Models.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/Models.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/Models.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/Validation.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/Validation.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/Validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/Validation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/Validators.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/Validators.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/Validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/Validators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/form/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/form/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/gridConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/gridConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/gridProConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/gridProConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/ironListConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/ironListConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/ironListStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/ironListStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/menubarConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/menubarConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/messageListConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/messageListConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/selectConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/selectConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/styles/examplecomponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/styles/examplecomponent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/timepickerConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/timepickerConnector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/vaadin-big-decimal-field.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/vaadin-big-decimal-field.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/vaadin-grid-flow-selection-column.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/vaadin-grid-flow-selection-column.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/flow-frontend/virtualListConnector.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/flow-frontend/virtualListConnector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugins/application-theme-plugin/application-theme-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/plugins/application-theme-plugin/application-theme-plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugins/application-theme-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/plugins/application-theme-plugin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugins/application-theme-plugin/theme-copy.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/plugins/application-theme-plugin/theme-copy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugins/application-theme-plugin/theme-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/plugins/application-theme-plugin/theme-generator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugins/application-theme-plugin/theme-handle.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/plugins/application-theme-plugin/theme-handle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugins/stats-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/plugins/stats-plugin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugins/stats-plugin/stats-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/plugins/stats-plugin/stats-plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugins/theme-live-reload-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/plugins/theme-live-reload-plugin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugins/theme-live-reload-plugin/theme-live-reload-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/plugins/theme-live-reload-plugin/theme-live-reload-plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugins/theme-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/plugins/theme-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/plugins/theme-loader/theme-loader.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,8 +40,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Isac\OneDrive\Documentos\GitHub\AyEDI-Proyecto-II\src\main\webapp\frontend" />
+    </key>
   </component>
   <component name="RunManager" selected="Maven.AyEDI-Proyecto-II [spring-boot:run]">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -180,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635143906296</updated>
-      <workItem from="1635143909713" duration="78000" />
+      <workItem from="1635143909713" duration="2269000" />
     </task>
     <servers />
   </component>
