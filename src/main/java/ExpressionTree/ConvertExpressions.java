@@ -12,6 +12,7 @@ public class ConvertExpressions {
         String postorderExpression = "";
         char caracterEvaluado;
         boolean temp=true;
+        char UltimoCaracter =' ';
 
         for (int i=0;i<cadena.length();i++){ //se itera cada caracter de la expresión entrante
             caracterEvaluado = cadena.charAt(i);
@@ -19,6 +20,7 @@ public class ConvertExpressions {
             // si el caracter es un dígito se introduce directamente a la expresión de salida.
             if (Character.isDigit(caracterEvaluado)) {
                 postorderExpression = postorderExpression + Character.toString(caracterEvaluado);
+                UltimoCaracter = caracterEvaluado;
                 temp=true;
                 continue;
             }
@@ -29,6 +31,7 @@ public class ConvertExpressions {
                     // si el caracter es un parentesis que cierra, se remueve un operador de la pila y se
                     //  coloca en la expresión.
                     postorderExpression = postorderExpression+" "+ pila.pop();
+                    UltimoCaracter = caracterEvaluado;
                     temp=false;
                     break;
                 default:
@@ -48,7 +51,10 @@ public class ConvertExpressions {
         }
         // se introduce el operador restante de la pila a la expresión de salida, quien de hecho será el
         // operador que contendrá la raíz del árbol.
-        postorderExpression=postorderExpression + pila.pop();
+        if (Character.isDigit(UltimoCaracter)){
+            postorderExpression=postorderExpression +" "+ pila.pop();
+            return postorderExpression;
+        }
         return postorderExpression;
     }
 

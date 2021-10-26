@@ -14,7 +14,7 @@ public class  ExpressionTree {
     }
 
     // método para construir un árbol de expresion de la expresion postfija de entrada
-    private NodeTree constructorTree(String postorderExpression) {
+    public NodeTree constructorTree(String postorderExpression) {
         //variable para almacenar los operandos
         String TempNum ="";
         // se crea una pila vacía para almacenar punteros de las raices de los subárboles
