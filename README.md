@@ -113,7 +113,7 @@ leída por el árbol de expresión binaria.
             }
 
 
-  * Respectiva explicación 
+  * Método boolean que recibe como argumento la expresión infija del usuario y verifica carácter por carácter si la expresión el usuario es apta para realizar el cálculo mediante el árbol de expresión binaria. Si la expresión está escrita erróneamente (caracteres no válidos, colocación incorrecta de paréntesis) se obtendrá como resultado un mensaje que indicará que la expresión ingresada está incorrecta, sin embargo si la expresión al ser evaluada en este método no se encuentran errores, permitirá su envió y ejecución en el árbol de expresión binaria.
 
  
 * **ConstructorTree**
@@ -155,7 +155,7 @@ leída por el árbol de expresión binaria.
                 return pila.peek();
             }
 
-  * Respectiva explicación 
+  * Este método consiste en tomar una expresión postfija y crear un árbol de expresión binaria de carácter postfijo a base de esa expresión, de tal manera que se itera sobre la expresión carácter por carácter. Si el carácter iterado es un operando, se crea un nuevo nodo conteniendo el dato y su puntero se inserta en una pila, por otro lado si el carácter iterado es un operador, se extraen de la pila dos punteros (nodo izquierdo y nodo derecho) a dos árboles y se forma un nuevo árbol cuya raíz es el operador y cuyos hijos son el nodo izquierdo y el nodo derecho. Al final de la construcción del árbol, un puntero al árbol completo permanece en la pila (nodo) de forma que siempre haya una referencia a la raíz del árbol de expresión.
 
    
 * **Resultado**
@@ -193,6 +193,7 @@ leída por el árbol de expresión binaria.
             }
         }
 
+  * Este método recibe como parámetro el nodo de la raíz del árbol de expresión, el cual luego recorre de forma recursiva con carácter postfijo; es decir, leerá la raíz de cada nodo interno (operadores), sin embargo no los escribirá hasta encontrar y escribir el nodo hoja izquierdo que contiene a un operando del subárbol evaluado (operador). Luego de escribir el operador se busca y se escribe el nodo hoja derecho que contiene al operando faltante para realizar el cálculo, de modo que ese resultado del cálculo se transformará en el operando de los nodos hijos del árbol de nivel anterior y de esta forma se hará con cada subárbol del árbol de expresión.
 
 ##  Problemas encontrados
 

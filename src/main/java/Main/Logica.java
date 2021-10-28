@@ -47,13 +47,13 @@ public class Logica  implements Serializable{
             resultado = "Expresión inválida,verfique de nuevo";
             
         }else{
-            Manejador manejo = new Manejador();
+            Manejador manejoArchivos = new Manejador();
             postfijo = ConvertExpressions.postfijo(infijo);
-            ExpressionTree et = new ExpressionTree();
-            NodeTree root = et.constructorTree(postfijo);
-            et.Resultado(root);
-            resultado = String.valueOf(et.Resultado(root));
-            manejo.enviarInfo();
+            ExpressionTree expressionTree = new ExpressionTree();
+            NodeTree root = expressionTree.constructorTree(postfijo);
+            expressionTree.Resultado(root);
+            resultado = String.valueOf(expressionTree.Resultado(root));
+            manejoArchivos.enviarInfo();
         }
 
     }
