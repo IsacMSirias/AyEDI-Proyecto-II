@@ -42,6 +42,7 @@ public class Logica implements Serializable {
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     public void resolveroperacion() {
         ConvertExpressions Conversor = new ConvertExpressions();
         if(Conversor.verificar(infijo)){
@@ -54,6 +55,8 @@ public class Logica implements Serializable {
             resultado = String.valueOf(et.Resultado(root));
         }
 =======
+=======
+>>>>>>> Stashed changes
     public void resolveroperacion() throws IOException {
         Manejador manejo = new Manejador();
         postfijo = ConvertExpressions.postfijo(infijo);
@@ -62,6 +65,9 @@ public class Logica implements Serializable {
         et.Resultado(root);
         resultado = String.valueOf(et.Resultado(root));
         manejo.enviarInfo();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }
