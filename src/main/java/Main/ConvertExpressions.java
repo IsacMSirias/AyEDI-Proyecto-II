@@ -30,7 +30,13 @@ public class ConvertExpressions {
                 case ')':
                     // si el caracter es un parentesis que cierra, se remueve un operador de la pila y se
                     //  coloca en la expresión.
-                    postorderExpression = postorderExpression+" "+ pila.pop();
+                    if (Character.isDigit(UltimoCaracter)){
+                        postorderExpression = postorderExpression+" "+ pila.pop();
+                        UltimoCaracter = caracterEvaluado;
+                        temp=false;
+                        break;
+                    }
+                    postorderExpression = postorderExpression+ pila.pop();
                     UltimoCaracter = caracterEvaluado;
                     temp=false;
                     break;

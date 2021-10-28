@@ -30,10 +30,15 @@ public class Logica implements Serializable {
     }
 
     public void resolveroperacion() {
-        postfijo = ConvertExpressions.postfijo(infijo);
-        ExpressionTree et = new ExpressionTree();
-        NodeTree root = et.constructorTree(postfijo);
-        et.Resultado(root);
-        resultado = String.valueOf(et.Resultado(root));
+        ConvertExpressions Conversor = new ConvertExpressions();
+        if(Conversor.verificar(infijo)){
+            resultado = "Expresión inválida,verfique de nuevo";
+        }else{
+            ExpressionTree et = new ExpressionTree();
+            postfijo = ConvertExpressions.postfijo(infijo);
+            NodeTree root = et.constructorTree(postfijo);
+            et.Resultado(root);
+            resultado = String.valueOf(et.Resultado(root));
+        }
     }
 }
