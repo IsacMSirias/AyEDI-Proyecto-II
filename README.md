@@ -13,8 +13,8 @@ Para la resolución de las operaciones matemáticas escritas por el usuario se d
 
 ## Diagrama de clases
 
-![UmlDiagram](https://user-images.githubusercontent.com/83249731/139192101-641093f9-f54e-4c57-a8f3-318d17f35e0c.png)
-
+![DiagramUML](https://user-images.githubusercontent.com/83249731/139214353-38f41c4d-d071-429a-bbeb-00e001a0fe35.png)
+ 
 
 ## Árbol de expresión binaria.
 

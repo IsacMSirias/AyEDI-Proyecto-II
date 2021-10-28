@@ -12,7 +12,7 @@ import Registro.Manejador;
 
 @ManagedBean
 @RequestScoped
-public class Logica implements Serializable {
+public class Logica  implements Serializable{
 
 
     public List<String[]> almacenamiento = Manejador.almacenamiento;
