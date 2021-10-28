@@ -10,43 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a01953c5-26eb-4762-ad47-14eb87d47859" name="Default Changelist" comment="">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/AyEDI_Proyecto_II_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/AyEDI_Proyecto_II_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/AyEDI_Proyecto_II_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/AyEDI_Proyecto_II_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main/Logica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Logica.java" afterDir="false" />
-=======
-=======
->>>>>>> Stashed changes
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_opencsv_opencsv_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Registro/Manejador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/AyEDI_Proyecto_II_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/AyEDI_Proyecto_II_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AyEDI-Proyecto-II.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AyEDI-Proyecto-II.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Logica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Logica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT/WEB-INF/classes/Main/Logica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT/WEB-INF/classes/Main/Logica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT/index.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main/Logica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/Logica.class" afterDir="false" />
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Tree/ExpressionTree.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />

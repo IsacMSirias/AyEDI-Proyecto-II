@@ -41,33 +41,20 @@ public class Logica implements Serializable {
         Logica.infijo = infijo;
     }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     public void resolveroperacion() {
         ConvertExpressions Conversor = new ConvertExpressions();
         if(Conversor.verificar(infijo)){
             resultado = "Expresión inválida,verfique de nuevo";
+            
         }else{
-            ExpressionTree et = new ExpressionTree();
+            Manejador manejo = new Manejador();
             postfijo = ConvertExpressions.postfijo(infijo);
+            ExpressionTree et = new ExpressionTree();
             NodeTree root = et.constructorTree(postfijo);
             et.Resultado(root);
             resultado = String.valueOf(et.Resultado(root));
+            manejo.enviarInfo();
         }
-=======
-=======
->>>>>>> Stashed changes
-    public void resolveroperacion() throws IOException {
-        Manejador manejo = new Manejador();
-        postfijo = ConvertExpressions.postfijo(infijo);
-        ExpressionTree et = new ExpressionTree();
-        NodeTree root = et.constructorTree(postfijo);
-        et.Resultado(root);
-        resultado = String.valueOf(et.Resultado(root));
-        manejo.enviarInfo();
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
     }
 }
