@@ -41,7 +41,7 @@ public class Logica implements Serializable {
         Logica.infijo = infijo;
     }
 
-    public void resolveroperacion() {
+    public void resolveroperacion() throws IOException {
         ConvertExpressions Conversor = new ConvertExpressions();
         if(Conversor.verificar(infijo)){
             resultado = "Expresión inválida,verfique de nuevo";
