@@ -13,28 +13,28 @@
     </h:outputStylesheet>
 </h:head>
 
-<h:body id="registro">
+<h:body id="Historial">
     <h:form styleClass="Panel" id="tabla" columnClasses="left,middle,right">
 
-        <p:dataTable id="TablaDeRegistro" var="p">
+        <p:dataTable id="TablaDeRegistro" value="#{logica.almacenamiento}" var="p">
 
             <p:column headerText="Fecha">
-                <p:outputLabel value="#{p[0]}"/>
+                <p:outputLabel value="#{p[2]}"/>
             </p:column>
 
             <p:column headerText="Operacion">
-                <p:outputLabel value="#{p[1]}"/>
+                <p:outputLabel value="#{p[0]}"/>
             </p:column>
 
             <p:column headerText="Resultado">
-                <p:outputLabel value="#{p[2]}"/>
+                <p:outputLabel value="#{p[1]}"/>
             </p:column>
 
         </p:dataTable>
     </h:form>
 </h:body>
 
-<h:body id="principal">
+<h:body id="main">
     <h:form id="cuadro" >
         <p:panelGrid styleClass="Panel" columnClasses="left,middle,right">
             <f:facet name="header">
