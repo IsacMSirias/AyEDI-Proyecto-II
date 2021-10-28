@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AyEDI-Proyecto-II:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>AyEDI-Proyecto-II</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="AyEDI-Proyecto-II-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="AyEDI-Proyecto-II:war exploded" />
+    </root>
+  </artifact>
+</component>
