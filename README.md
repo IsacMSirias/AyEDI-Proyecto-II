@@ -213,4 +213,3 @@ El problema mas gande que tuvimos es que en una primera instancia usarmos para l
 
 **3.** En la elaboración de un proyecto se da la oportunidad de adquirir nuevos conocimientos, nuevas formas de pensar y desarrollar la lógica computacional y de programación, con el fin de poder realizar a futuro, proyectos aún más avanzados y con más eficiencia mayor.
 
-**4.** La mente de los estudiantes durante la confección de un código debe de permanecer siempre abierta, ser dinámica y adoptando una manera de mantener 
