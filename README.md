@@ -18,7 +18,7 @@ Para la resolución de las operaciones matemáticas escritas por el usuario se d
 
 ## Árbol de expresión binaria.
 
-Se explica detalladamente en que consiste la base de datos y como se utiliza en el proyecto
+Como estructura de base de datos se utilizó un arbol de expresion binaria el cual es es una estructura de datos en la cual cada nodo puede tener un hijo izquierdo y un hijo derecho. No pueden tener más de dos hijos (de ahí el nombre "binario"). Si algún hijo tiene como referencia a null, es decir que no almacena ningún dato, entonces este es llamado un nodo externo. En el caso contrario el hijo es llamado un nodo interno. Esto con el fin de poder recorrelo para que se pueda calcular la expresión que el usuario debe de ingresar.
 
 ## Descripción de los algoritmos utilizados
 
