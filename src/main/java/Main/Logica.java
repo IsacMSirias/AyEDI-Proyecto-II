@@ -54,6 +54,9 @@ public class Logica  implements Serializable{
             expressionTree.Resultado(root);
             resultado = String.valueOf(expressionTree.Resultado(root));
             manejoArchivos.enviarInfo();
+            System.out.println("Infijo: " +infijo);
+            System.out.println("Postfijo: " +postfijo);
+            System.out.println("Resultado: " +resultado);
         }
 
     }

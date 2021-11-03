@@ -11,9 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a01953c5-26eb-4762-ad47-14eb87d47859" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Logica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Logica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/historial.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/historial.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +173,7 @@
       <workItem from="1635411480986" duration="372000" />
       <workItem from="1635462147703" duration="22000" />
       <workItem from="1635462199004" duration="183000" />
-      <workItem from="1635907440314" duration="870000" />
+      <workItem from="1635907440314" duration="1910000" />
     </task>
     <servers />
   </component>
