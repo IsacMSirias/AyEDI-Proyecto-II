@@ -10,12 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a01953c5-26eb-4762-ad47-14eb87d47859" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main/Logica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Logica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Registro/Manejador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registro/Manejador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/ExpressionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/ExpressionTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/NodeTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/NodeTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +33,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/resources/css/index.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Registro/Manejador.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Tree/ExpressionTree.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Main/Logica.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />

@@ -2,11 +2,23 @@ package Main;
 
 import java.util.Stack;
 
+/**
+ *Clase que actua como conversor de expresiones matemáticas de infijo a postifijo.
+ *  Verifica si una expresión está correctamente escrita para luego convertirla de forma infija a postfija.
+ * @author Ludwin Ramos, Isac Marín
+ * @version 1.0
+ * @since 08/11/2021
+ */
+
 public class ConvertExpressions {
     private String expresion;
     static Stack<String> pila = new <Character>Stack();
 
-    // recibe como argumento la expresión infija para convertirla a postfija
+    /**
+     * Método encargado de convertir una expresión matemática de infija a postfija
+     * @param cadena , parametro que contiene la expresión matemática infija
+     * @return retorna una expresión de forma postfija.
+     */
     public static String postfijo(String cadena){
         pila.clear();
         String postorderExpression = "";
@@ -64,7 +76,13 @@ public class ConvertExpressions {
         return postorderExpression;
     }
 
-    // método que verifica si la expresión de entrada está correctamente escrita antes de convertirla a postfija.
+    /**
+     * Método que verifica si la expresión enviada por el ususario está escrita correctamente antes de
+     *  convertirla a postfija.
+     * @param expression , parametro que contiene la expresión enviada por el usuario.
+     * @return retorna un valor booleano "true" si se encontraron fallos de escritura en la expresión y "false"
+     * si la expresión no presenta fallos de escritura.
+     */
     public boolean verificar(String expression){
         char caracter;
         int parentesis = 0;
@@ -72,9 +90,10 @@ public class ConvertExpressions {
         for (int i=0; i<expression.length();i++){
             caracter = expression.charAt(i);
             if (Character.toString(caracter).equals("(") ||Character.toString(caracter).equals(")")){
-                parentesis++;
+                parentesis++; // cuenta si la cantidad de parentesis que abren son iguales que los que cierran.
                 continue;
             }
+            // se verifica si los carácteres que se encuentran en la expresión son válidos
             switch (caracter) {
                 case '+':
                     break;
@@ -96,9 +115,11 @@ public class ConvertExpressions {
                     break;
             }
         }
+        // si la expresión tiene la misma cantidad de paresntesis que abren y que cierra, y la expresión no tiene
+        //  carateres distintos a los permitidos se cumplirá y por tanto la expresión esta correctamente escrita.
         if ((parentesis%2)==0 && ExpresionCorrecta){
             return false;
         }
-        return true;
+        return true; //si se encontraron fallos de escritura en la expresión matemática
     }
 }

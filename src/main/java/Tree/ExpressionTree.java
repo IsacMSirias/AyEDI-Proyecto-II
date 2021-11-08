@@ -2,9 +2,19 @@ package Tree;
 
 import java.util.Stack;
 
+/**
+ * Clase realiza la construcción y resolución de un árbol de expresión binaria.
+ * @author Ludwin Ramos, Isac Marín
+ * @version 1.0
+ * @since 08/11/2021
+ */
 public class ExpressionTree {
 
-    // método para verificar si el argumento dado es un operador.
+    /**
+     * Clase que verifica si un operador enviado es exitente o permitido.
+     * @param operator , operador a verificar.
+     * @return retorna "true" si el operador recibido es permitido y "false" si el operador recibido no es permitido.
+     */
     public boolean isOperator(String operator) {
         return (operator.equals("+")  ||operator.equals("/")
                 || operator.equals("-") || operator.equals("+")
@@ -12,7 +22,11 @@ public class ExpressionTree {
                 operator.equals("%"));
     }
 
-    // método para construir un árbol de expresion de la expresion postfija de entrada
+    /**
+     * método para construir un árbol de expresion de la expresion postfija de entrada.
+     * @param postorderExpression , expresión posfija.
+     * @return retorna un nodo el cual es la raíz del árbol de expresión binaria que se construyó.
+     */
     public NodeTree constructorTree(String postorderExpression) {
         //variable para almacenar los operandos
         String TempNum ="";
@@ -67,7 +81,11 @@ public class ExpressionTree {
         return pila.peek();
     }
 
-    // método para recorrer calcular la expresión contenida en el árbol
+    /**
+     * método para recorrer y calcular la expresión contenida en el árbol de expresión binaria construido.
+     * @param root , parametro que contiene el nodo el cual es la raíz del árbol de expresión construido.
+     * @return retorna un valor numérico, el cual es el resultado de la expresión matemática del usuario.
+     */
     public double Resultado(NodeTree root) {
         double respuesta = 0; // resultado que se retorna en cada subárbol
 
