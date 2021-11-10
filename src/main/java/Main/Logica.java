@@ -85,6 +85,9 @@ public class Logica implements Serializable{
             // se envía la raíz del árbol ya construido, para resolver la operación recorriendo el árbol de expresión
             resultado = String.valueOf(expressionTree.Resultado(root));
             manejoArchivos.enviarInfo();
+            System.out.println("Infijo: " +infijo);
+            System.out.println("Postfijo: " +postfijo);
+            System.out.println("Resultado: " +resultado);
         }
 
     }

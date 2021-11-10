@@ -10,8 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a01953c5-26eb-4762-ad47-14eb87d47859" name="Default Changelist" comment="">
+
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Logica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Logica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT.war" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="jsf" />
       </list>
     </option>
   </component>
@@ -29,13 +37,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+
+    <setting file="file://$PROJECT_DIR$/src/main/java/Registro/Manejador.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Main/Logica.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" root0="FORCE_HIGHLIGHTING" />
+
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/webapp/resources/css/index.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Registro/Manejador.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Tree/ExpressionTree.java" root0="SKIP_INSPECTION" />
+
     <setting file="file://$PROJECT_DIR$/src/main/java/Main/Logica.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" root0="SKIP_INSPECTION" />
+
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/resources/css/index.css" root0="FORCE_HIGHLIGHTING" />
+
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -170,6 +188,7 @@
       <workItem from="1635411480986" duration="372000" />
       <workItem from="1635462147703" duration="22000" />
       <workItem from="1635462199004" duration="183000" />
+      <workItem from="1635907440314" duration="1910000" />
     </task>
     <servers />
   </component>

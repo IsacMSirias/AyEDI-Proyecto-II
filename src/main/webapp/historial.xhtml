@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+   <title>CALCULADORA</title>
+   <h:outputStylesheet library="css" name="index.css"/>
+   <h:outputStylesheet>
+      body{
+         background-image: url("background.jpg");
+      }
+   </h:outputStylesheet>
+</h:head>
+
+<h:body id="Historial">
+   <h:form styleClass="Panel" id="tabla" columnClasses="left,middle,right">
+
+      <p:dataTable id="TablaDeRegistro" value="#{logica.almacenamiento}" var="p">
+
+         <p:column headerText="Fecha">
+            <p:outputLabel value="#{p[2]}"/>
+         </p:column>
+
+         <p:column headerText="Operacion">
+            <p:outputLabel value="#{p[0]}"/>
+         </p:column>
+
+         <p:column headerText="Resultado">
+            <p:outputLabel value="#{p[1]}"/>
+         </p:column>
+
+      </p:dataTable>
+   </h:form>
+
+   <p:panelGrid styleClass="Panel" columnClasses="left,middle,right">
+      <p:row>
+         <p:column>
+            <p:commandButton value="VOLVER" action="index" styleClass="ui-button-outlined"/>
+         </p:column>
+
+      </p:row>
+   </p:panelGrid>
+</h:body>
+</html>

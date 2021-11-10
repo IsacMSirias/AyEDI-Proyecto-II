@@ -5,34 +5,15 @@
 
 <h:head>
     <title>CALCULADORA</title>
-    <h:outputStylesheet library="css" name="index.css"/>
+    <h:outputStylesheet libery="xhtml" library="css" name="index.css"/>
     <h:outputStylesheet>
+
         body{
             background-image: url("background.jpg");
         }
     </h:outputStylesheet>
 </h:head>
 
-<h:body id="Historial">
-    <h:form styleClass="Panel" id="tabla" columnClasses="left,middle,right">
-
-        <p:dataTable id="TablaDeRegistro" value="#{logica.almacenamiento}" var="p">
-
-            <p:column headerText="Fecha">
-                <p:outputLabel value="#{p[2]}"/>
-            </p:column>
-
-            <p:column headerText="Operacion">
-                <p:outputLabel value="#{p[0]}"/>
-            </p:column>
-
-            <p:column headerText="Resultado">
-                <p:outputLabel value="#{p[1]}"/>
-            </p:column>
-
-        </p:dataTable>
-    </h:form>
-</h:body>
 
 <h:body id="main">
     <h:form id="cuadro" >
@@ -55,8 +36,10 @@
 
             <p:row>
                 <p:column>
-                    <p:commandButton value="RESOLVER" actionListener="#{logica.resolveroperacion}" update="textresultado tabla:TablaDeRegistro"  styleClass="ui-button-outlined"/>
+                    <p:commandButton value="RESOLVER" actionListener="#{logica.resolveroperacion}" update="textresultado"  styleClass="ui-button-outlined"/>
+                    <p:commandButton value="Historial" action="historial" styleClass="ui-button-outlined"/>
                 </p:column>
+
             </p:row>
 
             <p:row>
