@@ -23,9 +23,13 @@ import java.util.List;
  * @since 08/11/2021
  */
 public class Manejador {
-
+    /**
+     * Fecha .
+     */
     java.util.Date date = new Date();
-
+    /**
+     * Instancia del almacenamiento del csv.
+     */
     public static List<String[]> almacenamiento;
 
     /**

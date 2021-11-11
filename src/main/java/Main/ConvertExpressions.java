@@ -11,7 +11,13 @@ import java.util.Stack;
  */
 
 public class ConvertExpressions {
+    /**
+     * Expresion a evaluar.
+     */
     private String expresion;
+    /**
+     * Pila que se utilizara para evaluar la expresion.
+     */
     static Stack<String> pila = new <Character>Stack();
 
     /**

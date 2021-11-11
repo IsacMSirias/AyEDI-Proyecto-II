@@ -7,8 +7,13 @@ package Tree;
  * @since 08/11/2021
  */
 public class NodeTree {
-
+    /**
+     * dato del nodo.
+     */
     String data;
+    /**
+     * Punteros derecho e izquierdo del nodo que utilizará el arbol.
+     */
     NodeTree left,right;
 
     /**

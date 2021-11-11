@@ -12,22 +12,26 @@ import Registro.Manejador;
 
 @ManagedBean
 @RequestScoped
-/**
- * Clase que gestiona las entradas y salidas de la interfaz web.
- *  Controla la lógica del servidor de la cáluclador web.
- * @author Ludwin Ramos, Isac Marín
- * @versión 1.0
- * @since 08/11/2021
+ /*
+ * Clase que lleva la logica del proyecto
  */
 public class Logica implements Serializable{
 
-
+    /**
+     * Una lista que guarda la informacion del archivo csv.
+     */
     public List<String[]> almacenamiento = Manejador.almacenamiento;
-
+    /**
+     * Variable responsable de contener el valor que ingresa el usuario.
+     */
     public static String infijo;
-
+    /**
+     * Variable que resultante despues de que el conversor evalue a infijo.
+     */
     static String postfijo;
-
+    /**
+     * Variable que almacena el resultado.
+     */
     public static String resultado;
 
     /**

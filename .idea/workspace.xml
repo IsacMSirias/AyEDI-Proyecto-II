@@ -10,15 +10,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a01953c5-26eb-4762-ad47-14eb87d47859" name="Default Changelist" comment="">
-
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Main/ConvertExpressions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Main/Logica.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Main/class-use/ConvertExpressions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Main/class-use/Logica.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Main/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Main/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Main/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Main/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Registro/Manejador.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Registro/class-use/Manejador.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Registro/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Registro/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Registro/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Registro/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Tree/ExpressionTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Tree/NodeTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Tree/class-use/ExpressionTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Tree/class-use/NodeTree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Tree/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Tree/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Tree/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/Tree/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main/Logica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Logica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Registro/Manejador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registro/Manejador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/NodeTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/NodeTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/AyEDI-Proyecto-II-1.0-SNAPSHOT.war" afterDir="false" />
-
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +83,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-
     <setting file="file://$PROJECT_DIR$/src/main/java/Registro/Manejador.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Main/Logica.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" root0="FORCE_HIGHLIGHTING" />
-
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/webapp/resources/css/index.css" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/Registro/registrocsv.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/Registro/Manejador.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/Tree/ExpressionTree.java" root0="SKIP_INSPECTION" />
-
-    <setting file="file://$PROJECT_DIR$/src/main/java/Main/Logica.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/Main/ConvertExpressions.java" root0="SKIP_INSPECTION" />
-
     <setting file="file://$PROJECT_DIR$/src/main/webapp/resources/css/index.css" root0="FORCE_HIGHLIGHTING" />
-
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -189,6 +225,7 @@
       <workItem from="1635462147703" duration="22000" />
       <workItem from="1635462199004" duration="183000" />
       <workItem from="1635907440314" duration="1910000" />
+      <workItem from="1636642861488" duration="671000" />
     </task>
     <servers />
   </component>
